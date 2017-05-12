@@ -1,0 +1,46 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+body{
+     -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "liga", "kern";
+    text-rendering: optimizelegibility;
+}
+
+
+
+.port-wrapper *{
+    zoom:1;
+}
+
+@-moz-document url-prefix() {
+	body section.sect-about,
+	body section.sect-portfolio {
+        padding-left:0px !important;
+    }
+	body.body-small  section.sect-portfolio {
+    	padding-left: 50px !important;
+	}
+
+    blockquote.nick-quote{
+        left:-40px !important;
+    }
+/* fixes the align issue for firefox */
+    body #fav_full_wrapper{
+        margin-left:0px;
+    }
+}
+

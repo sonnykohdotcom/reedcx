@@ -1,0 +1,119 @@
+<div id="main" class="main wide85 fr">
+	<!--section1 //-->
+	<section class="sect sect-trends">
+		<div class="row">
+			<div class="col wide-6-of-12 col-4-of-4">
+				<h3 class="paddinleft2">{{head1}}</h3>
+				<graphblock-directive>
+				</graphblock-directive>
+			</div>
+			<div class="col wide-6-of-12 col-4-of-4">
+				<h3>{{head2}}</h3>
+				<div class="block block-border" id="blockborder2">
+					<div class="row">
+						<div class="col wide-6-of-12 col-2-of-4">
+							<bluebox-directive symbol="HDD" price="03.75" purchased="4/12/17" units="239"></bluebox-directive>
+						</div>
+						<div class="col wide-6-of-12 col-2-of-4">
+							<bluebox-directive symbol="GAM" price="02.02" purchased="3/22/17" units="837"></bluebox-directive>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col wide-6-of-12 col-2-of-4">
+							<bluebox-directive symbol="COLT" price="00.34" purchased="3/07/17" units="558"></bluebox-directive>
+						</div>
+						<div class="col wide-6-of-12 col-2-of-4">
+							<bluebox-directive symbol="AARC" price="01.44" purchased="2/28/17" units="901"></bluebox-directive>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--section2 //-->
+	<section class="sect sect-ratios">
+		<div class="row">
+			<div class="col wide-6-of-12 col-4-of-4">
+				<h3 class="paddinleft2">{{head4}}</h3>
+				<circlewrap-directive>
+					<div class="circle-wrapper">
+						<circleblock-directive 
+							ind="1" 
+							float="right" 
+							num="37" 
+							label="buy" 
+							update="3/10/07 | 02:37pm est">
+						</circleblock-directive>
+						<circleblock-directive 
+							ind="2" 
+							float="left" 
+							num="63" 
+							label="bid"
+							update="3/09/07 | 11:03am est">
+						</circleblock-directive>
+					</div>
+				</circlewrap-directive>
+			</div>
+			<div class="col wide-6-of-12 col-4-of-4">
+				<h3>{{head3}}</h3>
+				<gridsmall-directive>
+					<gridsmall-columns>
+						<gridsmall-col field="order" title="status"></gridsmall-col>
+						<gridsmall-col field="date" title="date"></gridsmall-col>
+						<gridsmall-col field="count" title="order count"></gridsmall-col>
+					</gridsmall-columns>
+
+					<gridsmalltable-directive></gridsmalltable-directive>
+				</gridsmall-directive>
+			</div>
+		</div>
+	</section>
+
+	<!--section3 //-->
+	<section class="sect sect-search">
+		<div class="row row__search">
+			<div class="col wide-6-of-12 col-1-of-4">
+				<searchwrap-directive label="search symbol"></searchwrap-directive>
+			</div>
+			<div class="col wide-6-of-12 col-3-of-4">
+				<div class="row">
+					<div class="col wide-4-of-12">
+						<blocktime-directive label="last trade" field="03/03/07 | 12:32pm"></blocktime-directive>
+					</div>
+					<div class="col wide-4-of-12">
+						<blocktime-directive label="last bid" field="03/14/07 | 2:29pm"></blocktime-directive>
+					</div>
+					<div class="col wide-4-of-12">
+						<blocktime-directive label="updated" field="03/22/07 | 5:44pm"></blocktime-directive>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	<!--section4 //-->
+	<section class="sect sect-table">
+		<div class="row">
+			<div class="col wide-12-of-12">
+				<gridfull-directive>
+					<grid-columns>
+						<grid-col title="symbol"     field="symbol"></grid-col>
+						<grid-col title="desc"       field="description" ></grid-col>
+						<grid-col title="offer"      field="offer"></grid-col>
+						<grid-col title="bid"        field="bid"></grid-col>
+						<grid-col title="unit"       field="unit"></grid-col>
+						<grid-col title="price"      field="price"></grid-col>
+						<grid-col title="action"     field="action"></grid-col>
+					</grid-columns>
+					<gridtable-directive with-action-buttons></gridtable-directive>
+				</gridfull-directive>
+			</div>
+		</div>
+	</section>
+	<hr/>
+	<copyright></copyright>
+</div>
+
+

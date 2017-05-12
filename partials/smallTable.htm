@@ -1,0 +1,24 @@
+<div class="block">
+	<div class="small-tab-wrap">
+		<table class="tab-data tab-small">
+			<thead>
+				<tr>
+					<th ng-repeat="c in smallCols" ng-class="{'th-status': c.title=='status'}">{{c.title}}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="r in smallRows">
+
+					<td ng-repeat="c in smallCols">
+						<span ng-if="c.field == 'order'">
+							<label>{{r[c.field]}}</label>
+						</span>
+						<span ng-if="c.field != 'order'" ng-class="{'count-wrap':c.field =='count'}">
+							{{r[c.field]}}
+						</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

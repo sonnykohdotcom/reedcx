@@ -1,0 +1,23 @@
+<div class="tab-wrap tab-border">
+	<table class="tab-data">
+		<thead>
+			<tr class="row__border-bottom">
+				<th ng-repeat="col in cols">{{col.field}}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="row in rows">
+				<td ng-repeat="col in cols">
+					<span ng-if="col.title != 'action'" ng-class="{'desc-wrap':col.title == 'desc'}">
+						{{row[col.title]}}
+					</span>
+					<span ng-if="col.title =='action'">
+						<action-directive></action-directive>
+					</span>
+				</td>
+			</tr>
+		</tbody>						
+	</table>
+</div>
+
+

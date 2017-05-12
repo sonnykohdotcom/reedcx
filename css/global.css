@@ -1,0 +1,251 @@
+html body *, body * {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+}
+
+body{
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+}
+
+
+a{
+	text-decoration: none;
+	letter-spacing: .04em;
+	color:#222;
+}
+
+h1,h2,h3{
+	text-align: left;
+	font-weight: lighter;
+	letter-spacing: .03em;
+}
+
+h2{
+	margin:30px 0px; 
+	font-size: 200%;
+}
+
+p{
+	text-align:left;
+}
+
+input, textarea{
+	background:0;
+	border:solid 1px #fff;
+	display:inline;
+	float:left;
+}
+
+
+label{
+	text-align: left
+}
+
+button{
+	display: block;
+	float:left;
+}
+
+nav{
+	position: fixed;
+	top:0px;
+	text-align: right;
+	min-height: 40px;
+	width:auto;
+	z-index: 101;
+	
+}
+
+section{
+	display: block;
+	width:100%;
+	margin:0px auto;
+	vertical-align: top;
+}
+
+ul li,
+ol li{
+	list-style: none;
+}
+
+footer{
+	display: block;
+	min-height:200px;
+	width:100%;
+	padding-top:30px;
+	background: #211;
+	text-align: left;
+	color:#999;
+	border-top:10px solid #111;
+}
+
+
+.allCaps{
+	text-transform: uppercase;
+	font-size: 120%;
+}
+
+
+*, *:before, *:after {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+user agent stylesheetdiv {
+display: block;
+}
+Pseudo ::before element
+.row:before, .row:after {
+	content: " ";
+	display: table;
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.marginbottom40{margin-bottom:40px}
+
+
+.italic{font-style: italic !important}
+.fl{float:left;}
+.vis{visibility: visible}
+.invis{visibility: hidden;}
+.fr{float:right;}
+.over{overflow: hidden}
+.cl{clear:both;}
+.sho{display: block}
+.hid{display: none}
+.txt-right{text-align: right}
+.bold{font-weight: bold}
+
+.wrapper{clear: both; overflow: hidden}
+
+.paddingtop20{padding-top: 20px}
+
+.paddingleft-14{padding-left: 14px}
+
+
+.marginleft-10{margin-left:9.9px;}
+.marginleft-20{margin-left:19.9px;}
+
+.marginright-10{margin-right:9.9px;}
+.marginright-20{margin-right:19.9px;}
+.marginright-30{margin-right:29.9px;}
+
+.margintop-20{margin-top: 20px}
+
+.height130{
+	min-height: 130px;
+	height:130px;
+}
+.height200{
+	min-height: 200px;
+	height:200px;
+
+}
+.row .row:before, .row .row:after {
+  content: " ";
+  display: table; }
+
+.row:before, .row:after {
+  content: " ";
+  display: table; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.row .row:after {
+  clear: both; }
+
+.row .row:before, .row .row:after {
+  content: " ";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+.row:before, .row:after {
+  content: " ";
+  display: table; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.row {
+  margin: 0 auto;
+  max-width:70.5555rem;
+  width: 100%; }
+
+.row.display .columns:nth-child(2),
+.row.display .columns.small-centered,
+.row.display .columns.large-centered {
+  background: none repeat scroll 0 0 #e1e1e1; }
+
+[class*="column"] + [class*="column"]:last-child {
+  float: right; }
+
+.column, .columns, .col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1%; }
+
+
+  .row .col:first-child,
+  .col.first-child,
+  .first-col{margin-left:0;}
+
+*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.1%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+.wide10{width:9.9%;}
+.wide15{width:14.9%;}
+.wide20{width:19.9%;}
+.wide25{width:24.9%;}
+.wide30{width:29.9%;}
+.wide35{width:34.9%;}
+.wide40{width:39.9%;}
+.wide45{width:44.9%;}
+.wide50{width:49.9%;}
+.wide55{width:54.9%;}
+.wide60{width:59.9%;}
+.wide65{width:64.9%;}
+.wide70{width:69.9%;}
+.wide75{width:74.9%;}
+.wide80{width:79.9%;}
+.wide85{width:84.9%;}
+.wide90{width:89.9%;}
+.wide95{width:94.9%;}
+.wide100{width:99.9%;}
+
+
+
+/*  GRID OF TWELVE  */
+.wide-12-of-12 {width: 100%;}
+.wide-11-of-12 {width: 91.57%;}
+.wide-10-of-12 {width: 83.15%;}
+.wide-9-of-12 {width: 74.72%;}
+.wide-8-of-12 {width: 66.3%;}
+.wide-7-of-12 {width: 57.87%;}
+.wide-6-of-12 {width: 48.8888%;}
+ 
+.wide-5-of-12 {width: 41.02%;}
+.wide-4-of-12 {width: 32.6%;}
+.wide-3-of-12 {width: 24.17%;}
+.wide-2-of-12 {width: 15.75%;}
+.wide-1-of-12 {width: 7.325%;}

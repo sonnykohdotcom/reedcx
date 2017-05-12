@@ -1,0 +1,51 @@
+{"bigData":[
+	{
+	"symbol":"CSEY",
+	  "desc":"RHFD Pellentesque habitant morbi tristique senectus et netus.",
+     "offer":"343",
+	   "bid": 843,
+	  "unit":3294,
+	 "price":23.03
+	},
+	{
+	"symbol":"IOOP",
+	  "desc":"RHFD Pellentesque habitant morbi tristique senectus et netus.",
+     "offer":"343",
+	   "bid": 5894,
+	  "unit":3294,
+	 "price":23.03
+	},
+	{
+	"symbol":"EXSE",
+	  "desc":"RHFD Pellentesque habitant morbi tristique senectus et netus.",
+     "offer":"343",
+	   "bid": 4343,
+	  "unit":3294,
+	 "price":28.30
+	},
+	{
+	"symbol":"MORE",
+	  "desc":"RHFD Pellentesque habitant morbi tristique senectus et netus.",
+     "offer":"343",
+	   "bid": 4343,
+	  "unit":3294,
+	 "price":23.03
+	},
+	{
+	"symbol":"SRRT",
+	  "desc":"RHFD Pellentesque habitant morbi tristique senectus et netus.",
+     "offer":"343",
+	   "bid": 4343,
+	  "unit":3294,
+	 "price":11.48
+	},
+	{
+	"symbol":"VIVD",
+	  "desc":"RHFD Pellentesque habitant morbi tristique senectus et netus.",
+     "offer":"343",
+	   "bid": 4343,
+	  "unit":3294,
+	 "price":23.03
+	}
+]}
+

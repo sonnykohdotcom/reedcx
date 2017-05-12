@@ -1,0 +1,24 @@
+<div class="rail-menu-wrapper">
+	<railmenuwrap-directive type="overview" ng-transclude>
+		<p class="btn-rail-wrap">
+			<btnrail-directive></btn-directive>
+		</p>
+		<ul class="overview__menu-wrap">
+			<li class="hilite"><span class="num-bubble">{{newnumber}}</span>new</li>
+			<li><span class="num-bubble">{{updatednumber}}</span>updated</li>
+			<li><span class="num-bubble">{{favoritesnumber}}</span>favorites</li>
+		</ul>
+	</railmenuwrap-directive>
+
+	<railmenuwrap-directive type="settings" ng-transclude>
+		<p class="btn-rail-wrap">
+			<btnrail-directive></btn-directive>
+		</p>
+	</railmenuwrap-directive>
+
+	<railmenuwrap-directive type="messages" ng-transclude>
+		<p class="btn-rail-wrap">
+			<btnrail-directive></btn-directive>
+		</p>
+	</railmenuwrap-directive>
+</div>

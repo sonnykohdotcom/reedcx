@@ -1,0 +1,15 @@
+<div id="rail" 
+	ng-class="['rail','wide15','fl',{'active':hamburgerBool}]">
+	<div class="rail-full-wrapper">
+		<railblock-directive ng-transclude>
+			<railblockinner-directive ng-transclude type="head">
+				<railhead-directive headname="samantha jones"></railhead-directive>
+			</railblockinner-directive>
+		</railblock-directive>
+		<railblock-directive ng-transclude>
+			<railblockinner-directive ng-transclude type="menu">
+				<railmenu-directive newNumber="3" updatedNumber="5" favoritesNumber="12"></railmenu-directive>
+			</railblockinner-directive>
+		</railblock-directive>
+	</div>
+</div>
